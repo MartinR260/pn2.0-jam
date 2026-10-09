@@ -1,0 +1,22 @@
+[gd_scene format=3 uid="uid://ctgqx5r1d5ju8"]
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_hatad"]
+albedo_color = Color(0.7529412, 0.45490196, 0.29803923, 1)
+
+[sub_resource type="BoxMesh" id="BoxMesh_b1lj4"]
+material = SubResource("StandardMaterial3D_hatad")
+
+[sub_resource type="BoxShape3D" id="BoxShape3D_njqwk"]
+
+[node name="Node3D" type="Node3D" unique_id=1545747045]
+
+[node name="MeshInstance3D" type="MeshInstance3D" parent="." unique_id=463166913]
+transform = Transform3D(1, 0, 0, 0, 0.1, 0, 0, 0, 1, 0, 0.05, 0)
+gi_mode = 2
+mesh = SubResource("BoxMesh_b1lj4")
+
+[node name="StaticBody3D" type="StaticBody3D" parent="MeshInstance3D" unique_id=910710706]
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="MeshInstance3D/StaticBody3D" unique_id=1755960026]
+transform = Transform3D(-1, -1.509958e-07, 0, 1.509958e-07, -1, 0, 0, 0, 1, 0, 0, 0)
+shape = SubResource("BoxShape3D_njqwk")
