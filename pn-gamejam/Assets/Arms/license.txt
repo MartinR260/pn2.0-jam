@@ -1,0 +1,11 @@
+Model Information:
+* title:	Rigged FPS Arms
+* source:	https://sketchfab.com/3d-models/rigged-fps-arms-6b1cde4746774b7893513f84cac7a866
+* author:	Rafael23415 (https://sketchfab.com/Rafael23415)
+
+Model License:
+* license type:	CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)
+* requirements:	Author must be credited. Commercial use is allowed.
+
+If you use this 3D model in your project be sure to copy paste this credit wherever you share it:
+This work is based on "Rigged FPS Arms" (https://sketchfab.com/3d-models/rigged-fps-arms-6b1cde4746774b7893513f84cac7a866) by Rafael23415 (https://sketchfab.com/Rafael23415) licensed under CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)
