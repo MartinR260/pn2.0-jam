@@ -12,7 +12,9 @@ func _physics_process(delta):
 	# Handle jump. (default)
 	#if Input.is_action_just_pressed("ui_accept") and is_on_floor():
 		#velocity.y = JUMP_VELOCITY
-	
+	if Input.is_action_just_pressed("button_pause"): Input.mouse_mode = Input.MOUSE_MODE_VISIBLE
+	if Input.is_action_just_pressed("mouse_leftclick"): Input.mouse_mode = Input.MOUSE_MODE_CAPTURED
+		
 	# Add the gravity.
 	if not is_on_floor():
 		velocity += get_gravity() * delta * 2

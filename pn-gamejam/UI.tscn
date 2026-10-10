@@ -1,0 +1,46 @@
+[gd_scene format=3 uid="uid://2i2qqdije5j"]
+
+[ext_resource type="Texture2D" uid="uid://d4duddyp1f8a2" path="res://Assets/UI/UI_crosshair.png" id="1_vrfts"]
+[ext_resource type="Texture2D" uid="uid://bq2fh8vvhyrbp" path="res://Assets/UI/UI_el_topleft.png" id="2_0mc3e"]
+[ext_resource type="Texture2D" uid="uid://34rc87pw1biv" path="res://Assets/UI/UI_el_topright.png" id="3_2n5f6"]
+[ext_resource type="Texture2D" uid="uid://3alsx71xf7l8" path="res://Assets/UI/UI_el_bottomleft.png" id="4_27c8x"]
+[ext_resource type="Texture2D" uid="uid://4vblmyhi7esn" path="res://Assets/UI/UI_el_bottomright.png" id="5_i1vam"]
+
+[node name="Control" type="Control" unique_id=518614919]
+layout_mode = 3
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+mouse_filter = 2
+
+[node name="Crosshair" type="TextureRect" parent="." unique_id=284568562]
+layout_mode = 0
+offset_right = 40.0
+offset_bottom = 40.0
+texture = ExtResource("1_vrfts")
+
+[node name="TopLeftBorder" type="TextureRect" parent="." unique_id=1307151057]
+layout_mode = 0
+offset_right = 40.0
+offset_bottom = 40.0
+texture = ExtResource("2_0mc3e")
+
+[node name="TopRightBorder" type="TextureRect" parent="." unique_id=50442447]
+layout_mode = 0
+offset_right = 40.0
+offset_bottom = 40.0
+texture = ExtResource("3_2n5f6")
+
+[node name="BottomLeftBorder" type="TextureRect" parent="." unique_id=484438018]
+layout_mode = 0
+offset_right = 40.0
+offset_bottom = 40.0
+texture = ExtResource("4_27c8x")
+
+[node name="BottomRightBorder" type="TextureRect" parent="." unique_id=2037723761]
+layout_mode = 0
+offset_right = 40.0
+offset_bottom = 40.0
+texture = ExtResource("5_i1vam")
